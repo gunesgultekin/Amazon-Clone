@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Clone</title>
     <link rel="stylesheet" href="styles/index-style.css" />
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" />
   </head>
   <body>
     <div class="mainframe" style="display: grid; grid-template-rows: 50px 1fr">
@@ -15,8 +16,8 @@
         <div class="main-box">
           <h1>Sign in</h1>
           <p class="form-label">Email or mobile phone number</p>
-          <input class="input-form" type="text" />
-          <button class="continue-button">Continue</button>
+          <input id="input-form" class="input-form" type="text" />
+          <button id="continue-button" class="continue-button">Continue</button>
           <p class="terms-label">
             By continuing, you agree to Amazon's
             <em>Conditions of Use</em> and <em>Privacy Notice.</em>
@@ -40,5 +41,6 @@
         </div>
       </div>
     </div>
+    <script src="script/index.js"></script>
   </body>
 </html>
