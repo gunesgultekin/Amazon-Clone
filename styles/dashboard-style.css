@@ -1,7 +1,7 @@
 .head-section{
     background-color: black;
     text-align: left;
-    vertical-align: middle;
+    
 }
 
 .logo{
@@ -10,13 +10,10 @@
     margin-bottom: 0px;
     margin-top: 0px;
     display: inline-block;
-    height: 70px;
-    width: 130px;
+    width: 140px;
 }
 .deliver-div{
     display: inline-block;
-    height: 70px;    
-    
 }
 
 .dropdown{
@@ -32,9 +29,10 @@ p{
 }
 .deliver-label{
     color:white;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400px;
     margin-bottom: 0px;
+    margin-top: 10px;
     
 }
 .location-label{
@@ -65,5 +63,12 @@ p{
     background-color: rgb(27, 57, 67);
 }
 .carousel-section{
+    
+}
+
+button{
+    background-color:  rgb(27, 57, 67);
+    color: white;
+    border-style: none;
     
 }
