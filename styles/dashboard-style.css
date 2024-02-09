@@ -64,9 +64,6 @@ p{
     background-color: rgb(27, 57, 67);
     padding: 7.5px;
 }
-.carousel-section{
-    
-}
 
 button{
     background-color:  rgb(27, 57, 67);
@@ -123,3 +120,10 @@ button:active{
     background-color: rgba(208, 208, 208, 0.942);
     opacity: 90%;
 }
+
+.main-col{
+    background-color: red;
+    margin: 15px;
+    
+}
+
