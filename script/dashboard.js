@@ -12,5 +12,6 @@ let sideBar = document.getElementById("sidebar");
 document.onclick = function(e){
     if (!allButton.contains(e.target) && !sideBar.contains(e.target) ) {
         sideBar.style.display = "none";
+        
     }
 }
