@@ -122,8 +122,80 @@ button:active{
 }
 
 .main-col{
-    background-color: red;
-    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
     
+   
 }
 
+.main-col-inside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    
+
+}
+
+.main-col-title{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:  'Amazon Ember', sans-serif;
+    
+
+    
+}
+.main-col-inside-element{
+    width: 200px;
+    margin: 10px;
+}
+
+.main-col-img{
+    object-fit: cover;
+}
+.main-col-img:hover{
+    cursor: pointer;
+}
+.main-col-img:active{
+    opacity: 70%;
+
+}
+
+.main-col-inside-desc{
+    display: block;
+}
+
+
+em{
+    color: rgb(3, 126, 234);
+    font-size: 18px;
+}
+em:hover{
+    cursor: pointer;
+    color: rgb(219, 145, 8);
+    text-decoration: underline;
+
+}
+
+.shop-section{
+    
+    background-color: white;
+}
+.shop-section-inside{
+    padding: 10px;
+    text-align: center;
+}
+.shop-section-img{
+    object-fit: fill;
+   
+    
+
+}
+
+.price-text{
+    font-size: 22px;
+    font-weight: bold;
+}
