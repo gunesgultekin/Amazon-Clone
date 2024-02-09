@@ -71,6 +71,55 @@ p{
 button{
     background-color:  rgb(27, 57, 67);
     color: white;
-    border-style: none;
+    border-style: solid;
+    border-color: transparent;
+    margin: 2px;
+
+}
+
+button:hover{
+    border-color: white;
     
+}
+button:active{
+    opacity: 60%;
+}
+
+.sidebar-top{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(27, 57, 67);
+}
+
+.sidebar-header{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.sidebar-mid{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.sidebar-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-btn{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+.sidebar-btn:hover{
+    background-color: rgba(208, 208, 208, 0.942);
+    opacity: 90%;
 }
